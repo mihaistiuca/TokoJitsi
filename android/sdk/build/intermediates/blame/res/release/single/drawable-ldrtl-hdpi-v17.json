@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/xml/rn_dev_preferences.xml",
+        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5-jitsi.1.aar/a8bfebf14ce6bc9aa932ceacef96b84b/res/xml/rn_dev_preferences.xml"
+    },
+    {
+        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/xml/file_provider_paths.xml",
+        "source": "/home/cristina-alexandru/Documents/jitsi-meet-master/node_modules/react-native-webview/android/build/intermediates/packaged_res/release/xml/file_provider_paths.xml"
+    }
+]
