@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-it/values-it.xml",
+            "outputFile": "/home/cristina-alexandru/Documents/TokoJitsi/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/49b54c9d6fc83ba144f65bd866ca79ea/res/values-it/values.xml",

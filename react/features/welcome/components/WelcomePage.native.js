@@ -81,7 +81,7 @@ class WelcomePage extends AbstractWelcomePage {
         this._updateRoomname();
 
         const { dispatch } = this.props;
-
+// alert(this.props.defaultPage);
         if (this.props._settings.startAudioOnly) {
             dispatch(destroyLocalTracks());
         } else {
@@ -244,6 +244,13 @@ class WelcomePage extends AbstractWelcomePage {
         );
     }
 
+    onChangePageHandler(pageIndex) {
+        // alert('change ' + pageIndex);
+        this.setState({
+            currentPage: pageIndex
+        });
+    }
+
     /**
      * Renders the full welcome page.
      *
@@ -251,7 +258,7 @@ class WelcomePage extends AbstractWelcomePage {
      */
     _renderFullUI() {
         const roomnameAccLabel = 'welcomepage.accessibilityLabel.roomname';
-        const { _headerStyles, t } = this.props;
+        const { _headerStyles, t, defaultPage } = this.props;
 
         return (
             <LocalVideoTrackUnderlay style = { styles.welcomePage }>
@@ -265,10 +272,18 @@ class WelcomePage extends AbstractWelcomePage {
                         {/* <VideoSwitch /> */}
                     </Header>
                     <TokoLogo/>
-                    <SafeAreaView style = { styles.roomContainer } >
+
+                    {
+                        this.state.currentPage != 2 &&
+                        <SafeAreaView style = { styles.roomContainer } >
                    
-                  <View style={{height: 10}}></View>
+                        <View style={{height: 10}}></View>
                         <View style = { styles.joinControls } >
+
+                        
+                            {/* <Text style = { styles.enterRoomText }>
+                                { this.state.currentPage }
+                            </Text> */}
                             <Text style = { styles.enterRoomText }>
                                 { t('welcomepage.roomname') }
                             </Text>
@@ -293,8 +308,11 @@ class WelcomePage extends AbstractWelcomePage {
                             }
                         </View>
                     </SafeAreaView>
+                    }
+
+                    
                     <View style={{height: 10}}></View>
-                    <WelcomePageLists disabled = { this.state._fieldFocused } />
+                    <WelcomePageLists onChangePage={(pageIndex) => this.onChangePageHandler(pageIndex)} disabled = { this.state._fieldFocused } />
                 </View>
                 <WelcomePageSideBar />
                 { this._renderWelcomePageModals() }

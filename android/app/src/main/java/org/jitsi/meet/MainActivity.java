@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet;
+// package org.jitsi.meet;
+package com.tokochat;
 
 import android.content.Intent;
 import android.net.Uri;

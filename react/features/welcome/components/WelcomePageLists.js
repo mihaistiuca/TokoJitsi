@@ -3,13 +3,14 @@
 import React, { Component } from 'react';
 
 import { translate } from '../../base/i18n';
-import { IconEventNote, IconRestore } from '../../base/icons';
+import { IconEventNote, IconRestore, IconMicrophoneEmpty, IconMicrophone } from '../../base/icons';
 import { PagedList } from '../../base/react';
 import { connect } from '../../base/redux';
 import { CalendarList, isCalendarEnabled } from '../../calendar-sync';
 import { RecentList } from '../../recent-list';
 
 import { setWelcomePageListsDefaultPage } from '../actions';
+import TokoHome from './TokoHome';
 
 /**
  * The type of the React {@code Component} props of {@link WelcomePageLists}.
@@ -75,7 +76,8 @@ class WelcomePageLists extends Component<Props> {
                 component: RecentList,
                 icon: IconRestore,
                 title: t('welcomepage.recentList')
-            }
+            },
+            
         ];
 
         if (_calendarEnabled) {
@@ -87,6 +89,14 @@ class WelcomePageLists extends Component<Props> {
                 }
             );
         }
+
+        pages.push(
+            {
+                component: TokoHome,
+                icon: IconMicrophone,
+                title: "Home" // TODO localization
+            }
+        )
 
         return (
             <PagedList
@@ -107,6 +117,8 @@ class WelcomePageLists extends Component<Props> {
      * @returns {void}
      */
     _onSelectPage(pageIndex) {
+        // alert(pageIndex);
+        this.props.onChangePage(pageIndex);
         this.props.dispatch(setWelcomePageListsDefaultPage(pageIndex));
     }
 }
