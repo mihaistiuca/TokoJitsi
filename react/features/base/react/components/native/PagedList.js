@@ -152,7 +152,9 @@ class PagedList extends Component<Props, State> {
             const component_ = component.WrappedComponent || component;
             const { refresh } = component_;
 
-            refresh.call(component, this.props.dispatch, isInteractive);
+            if (refresh) {
+                refresh.call(component, this.props.dispatch, isInteractive);
+            }
         }
     }
 

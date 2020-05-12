@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/values-uk/values-uk.xml",
+            "outputFile": "/home/cristina-alexandru/Documents/TokoJitsi/android/sdk/build/intermediates/res/merged/release/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/values-uk/values-uk.xml",
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "outputFile": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml",
+            "outputFile": "/home/cristina-alexandru/Documents/TokoJitsi/android/sdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/values-uk/values-uk.xml",

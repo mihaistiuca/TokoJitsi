@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "merged": "/home/cristina-alexandru/Documents/TokoJitsi/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
         "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-v21/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
-        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/10c907e10bf637b9d5530a864ddeaf3b/res/drawable-v21/notification_action_background.xml"
-    },
-    {
-        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "merged": "/home/cristina-alexandru/Documents/TokoJitsi/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
         "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-v21/abc_list_divider_material.xml"
     },
     {
-        "merged": "/home/cristina-alexandru/Documents/jitsi-meet-master/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "merged": "/home/cristina-alexandru/Documents/TokoJitsi/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/cristina-alexandru/Documents/TokoJitsi/android/sdk/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/10c907e10bf637b9d5530a864ddeaf3b/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/cristina-alexandru/Documents/TokoJitsi/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/cristina-alexandru/Documents/TokoJitsi/android/sdk/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
         "source": "/home/cristina-alexandru/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/df32a5333fb4a27bd3830ca0f854e4d6/res/drawable-v21/abc_edit_text_material.xml"
     }
 ]

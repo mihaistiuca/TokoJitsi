@@ -13,6 +13,8 @@ import { isRecentListEnabled } from '../../recent-list/functions';
  * {@code AbstractWelcomePage}'s React {@code Component} prop types.
  */
 type Props = {
+    defaultPage: number,
+
 
     /**
      * Whether the calendar functionality is enabled or not.

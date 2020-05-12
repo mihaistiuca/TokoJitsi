@@ -15215,23 +15215,13 @@ com.google.firebase.dynamiclinks.FirebaseDynamicLinks:
     public abstract com.google.android.gms.tasks.Task getDynamicLink(android.content.Intent)
     public abstract com.google.android.gms.tasks.Task getDynamicLink(android.net.Uri)
     public abstract com.google.firebase.dynamiclinks.DynamicLink$Builder createDynamicLink()
-com.google.firebase.dynamiclinks.PendingDynamicLinkData:
-    1:9:public PendingDynamicLinkData(com.google.firebase.dynamiclinks.internal.zza)
-    10:12:protected PendingDynamicLinkData(java.lang.String,int,long,android.net.Uri)
-    13:15:public final android.os.Bundle zzc()
-    22:24:public int getMinimumAppVersion()
-    25:27:public long getClickTimestamp()
-    28:30:private final android.net.Uri zzd()
-    31:44:public android.content.Intent getUpdateAppIntent(android.content.Context)
+com.google.firebase.dynamiclinks.PendingDynamicLinkData
 com.google.firebase.dynamiclinks.R
 com.google.firebase.dynamiclinks.ShortDynamicLink
 com.google.firebase.dynamiclinks.ShortDynamicLink$Suffix
 com.google.firebase.dynamiclinks.ShortDynamicLink$Warning
-com.google.firebase.dynamiclinks.internal.zza:
-    2:2:public final int zzf()
-    3:3:public final long getClickTimestamp()
-    4:5:public final void zza(long)
-    7:7:public final android.net.Uri zzd()
+com.google.firebase.dynamiclinks.internal.zza
+com.google.firebase.dynamiclinks.internal.zzb
 com.google.firebase.dynamiclinks.internal.zzg:
     9:18:public final com.google.android.gms.tasks.Task getDynamicLink(android.content.Intent)
     19:19:public final com.google.android.gms.tasks.Task getDynamicLink(android.net.Uri)
@@ -15513,6 +15503,24 @@ com.squareup.duktape.Duktape:
     26:26:static synthetic java.lang.Object access$100(long,long,java.lang.Object,java.lang.Object[])
 com.squareup.duktape.Duktape$1
 com.squareup.duktape.R
+com.tokochat.BuildConfig
+com.tokochat.R
+com.tokochat.R$anim
+com.tokochat.R$attr
+com.tokochat.R$bool
+com.tokochat.R$color
+com.tokochat.R$dimen
+com.tokochat.R$drawable
+com.tokochat.R$id
+com.tokochat.R$integer
+com.tokochat.R$interpolator
+com.tokochat.R$layout
+com.tokochat.R$mipmap
+com.tokochat.R$raw
+com.tokochat.R$string
+com.tokochat.R$style
+com.tokochat.R$styleable
+com.tokochat.R$xml
 com.zmxv.RNSound.BuildConfig
 com.zmxv.RNSound.R
 com.zmxv.RNSound.RNSoundPackage:
