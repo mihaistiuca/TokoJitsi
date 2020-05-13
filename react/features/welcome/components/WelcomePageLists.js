@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 
 import { translate } from '../../base/i18n';
-import { IconEventNote, IconRestore, IconMicrophoneEmpty, IconMicrophone } from '../../base/icons';
+import { IconEventNote, IconRestore, IconMicrophoneEmpty, IconMicrophone, IconLock, IconAddContact } from '../../base/icons';
 import { PagedList } from '../../base/react';
 import { connect } from '../../base/redux';
 import { CalendarList, isCalendarEnabled } from '../../calendar-sync';
@@ -74,13 +74,14 @@ class WelcomePageLists extends Component<Props> {
         const pages = [
             {
                 component: RecentList,
-                icon: IconRestore,
-                title: t('welcomepage.recentList')
+                icon: IconLock,
+                title: "Private"
+                // title: t('welcomepage.recentList')
             },
             
         ];
 
-        if (_calendarEnabled) {
+        if (false) {
             pages.push(
                 {
                     component: CalendarList,
@@ -93,8 +94,8 @@ class WelcomePageLists extends Component<Props> {
         pages.push(
             {
                 component: TokoHome,
-                icon: IconMicrophone,
-                title: "Home" // TODO localization
+                icon: IconAddContact,
+                title: "Just Talk" // TODO localization
             }
         )
 

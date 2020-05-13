@@ -24,6 +24,7 @@ export function doInvitePeople() {
             && (isAddPeopleEnabled(state) || isDialOutEnabled(state));
 
         if (addPeopleEnabled) {
+            // alert(12333);
             return dispatch(setActiveModalId(ADD_PEOPLE_DIALOG_VIEW_ID));
         }
 

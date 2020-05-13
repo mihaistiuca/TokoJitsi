@@ -36,15 +36,26 @@ MiddlewareRegistry.register(store => next => action => {
  * @returns {void}
  */
 function _shareRoom(roomURL: string, { dispatch, getState }) {
+    // alert(111);
     getShareInfoText(getState(), roomURL)
         .then(message => {
-            const title = `${getName()} Conference`;
+
+            // toko specific: get last part of the roomURL, which is the actual room name 
+            var lastSlashIndex = roomURL.lastIndexOf('/');
+            var actualRoomName = roomURL.substring(lastSlashIndex + 1);
+            var actualTokoUrl = 'https://tokochat.com/' + actualRoomName;
+
+            // const title = `${getName()} Conference`;
+            const title = 'Toko Meeting';
             const onFulfilled
-                = (shared: boolean) => dispatch(endShareRoom(roomURL, shared));
+                = (shared: boolean) => dispatch(endShareRoom(actualTokoUrl, shared));
+                
+            alert(title);
 
             Share.share(
                 /* content */ {
-                    message,
+                    // message,
+                    message: 'You have been invited to a Toko Meeting. Access it here:\n\nhttps://tokochat.com/' + actualRoomName,
                     title
                 },
                 /* options */ {
@@ -57,7 +68,7 @@ function _shareRoom(roomURL: string, { dispatch, getState }) {
                     },
                     /* onRejected */ reason => {
                         logger.error(
-                            `Failed to share conference/room URL ${roomURL}:`,
+                            `Failed to share conference/room URL ${actualTokoUrl}:`,
                             reason);
                         onFulfilled(false);
                     });

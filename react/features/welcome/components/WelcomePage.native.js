@@ -56,6 +56,7 @@ class WelcomePage extends AbstractWelcomePage {
 
         this.state._fieldFocused = false;
         this.state.hintBoxAnimation = new Animated.Value(0);
+        this.state.currentPage = 1;
 
         // Bind event handlers so they are only bound once per instance.
         this._onFieldFocusChange = this._onFieldFocusChange.bind(this);
@@ -274,7 +275,7 @@ class WelcomePage extends AbstractWelcomePage {
                     <TokoLogo/>
 
                     {
-                        this.state.currentPage != 2 &&
+                        this.state.currentPage != 1 &&
                         <SafeAreaView style = { styles.roomContainer } >
                    
                         <View style={{height: 10}}></View>
